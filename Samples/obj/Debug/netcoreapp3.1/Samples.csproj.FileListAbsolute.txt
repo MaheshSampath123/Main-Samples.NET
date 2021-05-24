@@ -1,0 +1,13 @@
+D:\Training .NET\Samples\Samples\bin\Debug\netcoreapp3.1\Samples.exe
+D:\Training .NET\Samples\Samples\bin\Debug\netcoreapp3.1\Samples.deps.json
+D:\Training .NET\Samples\Samples\bin\Debug\netcoreapp3.1\Samples.runtimeconfig.json
+D:\Training .NET\Samples\Samples\bin\Debug\netcoreapp3.1\Samples.runtimeconfig.dev.json
+D:\Training .NET\Samples\Samples\bin\Debug\netcoreapp3.1\Samples.dll
+D:\Training .NET\Samples\Samples\bin\Debug\netcoreapp3.1\Samples.pdb
+D:\Training .NET\Samples\Samples\obj\Debug\netcoreapp3.1\Samples.AssemblyInfoInputs.cache
+D:\Training .NET\Samples\Samples\obj\Debug\netcoreapp3.1\Samples.AssemblyInfo.cs
+D:\Training .NET\Samples\Samples\obj\Debug\netcoreapp3.1\Samples.csproj.CoreCompileInputs.cache
+D:\Training .NET\Samples\Samples\obj\Debug\netcoreapp3.1\Samples.dll
+D:\Training .NET\Samples\Samples\obj\Debug\netcoreapp3.1\Samples.pdb
+D:\Training .NET\Samples\Samples\obj\Debug\netcoreapp3.1\Samples.genruntimeconfig.cache
+D:\Training .NET\Samples\Samples\obj\Debug\netcoreapp3.1\Samples.csprojAssemblyReference.cache
