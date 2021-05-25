@@ -8,31 +8,31 @@ namespace MainClass
     {
         void GetDetails(string x);
     }
-    class InterfaceClass:InterfaceName
+    class InterfaceClass1:InterfaceName
     {
         public void GetDetails(string a)
         {
             Console.WriteLine("Name:{0}"+a);
         }
     }
-    class InterfaceClass1 : InterfaceName
+    class InterfaceClass2 : InterfaceName
     {
         public void GetDetails(string a)
         {
             Console.WriteLine("Location:{0}" + a);
         }
     }
-   /* class mained
+    class InterfaceClass
     {
         static void main()
         {
-            InterfaceName n = new InterfaceClass();
+            InterfaceName n = new InterfaceClass1();
             n.GetDetails("Sampath");
-            InterfaceName n1 = new InterfaceClass1();
+            InterfaceName n1 = new InterfaceClass2();
             n1.GetDetails("Hyderabad");
             Console.ReadLine();
 
         }
-    }*/
+    }
 
 }

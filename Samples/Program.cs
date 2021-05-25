@@ -2,11 +2,22 @@
 
 namespace Samples
 {
-    class Program
+    class class1
     {
+        public void display()
+        {
+            Console.WriteLine("hiii");
+        }
+    }
+    class Program:class1
+    {
+      
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            Program n = new Program();
+           
+
         }
     }
 }

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>MainClass.Arrays</StartupObject>
+    <StartupObject>Samples.OverRiding</StartupObject>
   </PropertyGroup>
 
 </Project>
