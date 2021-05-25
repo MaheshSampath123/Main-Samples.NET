@@ -17,7 +17,7 @@ namespace Samples
     }
     class LoadChild:LoadParent
     {
-        public void show(int i) ///OverLoading the same method
+        public void show(int i) ///OverLoading the parent show method
         {
             Console.WriteLine("child show method is called");
         }

@@ -8,10 +8,10 @@ namespace MainClass
     {
         int a;
         int b;
-        public void value()
+        static void Main(string[] args)
         {
-           
-            Console.WriteLine(a + " " + b);
+            Constructor n = new Constructor();
+            Console.WriteLine(n.a + " " +n.b);
         }
     }
 }

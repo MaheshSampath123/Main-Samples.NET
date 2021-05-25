@@ -17,11 +17,11 @@ namespace Samples
     }
     class LoadingChild : LoadingParent
     {
-        public void show(int i) ///OverLoading the same method
+        public void show(int i) ///OverLoading the parent show method 
         {
             Console.WriteLine("child show method is called");
         }
-        public override void test() ///overriding
+        public override void test() ///overriding parent test method
         {
             Console.WriteLine("child test method is called");
         }
