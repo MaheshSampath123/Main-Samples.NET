@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>Samples.Encapsulation</StartupObject>
+    <StartupObject>Samples.Delegates</StartupObject>
   </PropertyGroup>
 
 </Project>
