@@ -38,5 +38,12 @@ namespace MainClass
             Console.WriteLine(a!=b);
             Console.ReadLine();
         }
+        static void Main(string[] args)
+        {
+            Operaters n = new Operaters();
+            n.ArithmeticOperation();
+            n.LogicalOperator();
+            n.RelationalOperator();
+        }
     }
 }

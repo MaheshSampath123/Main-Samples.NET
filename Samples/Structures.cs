@@ -11,6 +11,11 @@ namespace MainClass
         {
             Console.WriteLine("hiii: all");
         }
+        static void Main(string[] args)
+        {
+            Structures n = new Structures();
+            n.display();
+        }
     
     }
 }

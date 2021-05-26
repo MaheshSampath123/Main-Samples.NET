@@ -61,5 +61,10 @@ namespace MainClass
             Console.WriteLine("\nPress Enter Key to Exit..");
             Console.ReadLine();
         }
+        static void Main(string[] args)
+        {
+            Methods n = new Methods();
+            n.Passbyvalue();
+        }
     }
 }

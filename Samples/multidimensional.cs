@@ -34,5 +34,10 @@ namespace MainClass
             Console.WriteLine("Press Enter Key to Exit..");
             Console.ReadLine();
         }
+        static void Main(string[] args)
+        {
+            multidimensional n = new multidimensional();
+            n.twothree();
+        }
     }
 }

@@ -15,5 +15,10 @@ namespace MainClass
             Console.WriteLine(a+" "+b+" "+c+" "+d);
             
         }
+        static void Main(string[] args)
+        {
+            variables n = new variables();
+            n.variable();
+        }
     }
 }

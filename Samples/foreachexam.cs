@@ -4,8 +4,8 @@ using System.Text;
 
 namespace MainClass
 {
-    class @foreach
-    {
+    class foreachexam
+    { 
         public void foreach1()
         {
             string[] names = new string[] { "Sampath", "Mahesh", "Goteti" };
@@ -13,6 +13,11 @@ namespace MainClass
             {
                 Console.WriteLine(name);
             }
+        }
+        static void Main(string[] args)
+        {
+            foreachexam n = new foreachexam();
+            n.foreach1();
         }
     }
 }

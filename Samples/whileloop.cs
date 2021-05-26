@@ -16,5 +16,10 @@ namespace MainClass
                 i++;
             }
         }
+        static void Main(string[] args)
+        {
+            whileloop n = new whileloop();
+            n.whileloops();
+        }
     }
 }

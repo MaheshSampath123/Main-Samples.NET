@@ -10,6 +10,11 @@ namespace MainClass
         {
             Console.WriteLine("hello");
         }
+        static void Main(string[] args)
+        {
+            namespaces n = new namespaces();
+            n.start();
+        }
     }
 }
 namespace anotherone

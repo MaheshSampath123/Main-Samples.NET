@@ -51,6 +51,10 @@ namespace MainClass
             int a = 15;
             Console.WriteLine(Convert.ToString(a,2));
         }
-       
+        static void Main(string[] args)
+        {
+            StringFormatting n = new StringFormatting();
+            n.trim();
+        }
     }
 }

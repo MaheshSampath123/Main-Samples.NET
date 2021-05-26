@@ -15,9 +15,11 @@ namespace MainClass
         short g = 23;
         long i = 24;
         decimal j = 25;
-        public void data()
+        static void Main(string[] args)
         {
-            Console.WriteLine(a+" "+b+" "+c+" "+d+" "+e+" "+f+" "+g+" "+i+" "+j);
+            Datatypes n = new Datatypes();
+
+            Console.WriteLine(n.a+" "+n.b+" "+n.c +" "+n.d +" "+n.e +" "+n.f +" "+n.g +" "+n.i +" "+n.j);
 
         }
     }

@@ -15,5 +15,10 @@ namespace MainClass
                 i++;
             } while (i <= 5);
         }
+        static void Main(string[] args)
+        {
+            Dowhile n = new Dowhile();
+            n.Dowhile1();
+        }
     }
 }

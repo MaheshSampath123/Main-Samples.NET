@@ -92,5 +92,12 @@ namespace MainClass
             public string Name { get; set; }
             public string Location { get; set; }
         }
+        static void Main(string[] args)
+        {
+            lists n = new lists();
+            n.lst();
+            n.list1();
+            n.adding();
+        }
     }
 }

@@ -24,6 +24,11 @@ namespace MainClass
                     Console.WriteLine("Not Known");
                     break;
             }
+            static void Main(string[] args)
+            {
+                SwitchStatement n = new SwitchStatement();
+                n.switchstate();
+            }
         }
     }
 }

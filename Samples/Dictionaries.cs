@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MainClass
 {
-    class Dictionaries
+    class Dictionaries1
     {
         public void Dict()
         {
@@ -38,6 +38,14 @@ namespace MainClass
                 Console.WriteLine("Value = {0}", item);
             }
             Console.ReadLine();
+        }
+        class Dictionaries
+        {
+            static void Main(string[] args)
+            {
+                Dictionaries1 n = new Dictionaries1();
+                n.Dict();
+            }
         }
     }
 }
