@@ -6,13 +6,18 @@ namespace Samples
 {
     class Nullable
     {
-        public static void status()
-        {
-            Console.WriteLine("hiii");
-        }
         static void Main(string[] args)
         {
-            Nullable.status();
+            int? x = null;
+            if (x.HasValue)
+            {
+                Console.WriteLine("x = {0}", x.Value);
+            }
+            else
+            {
+                Console.WriteLine("Value is Empty");
+            }
+            Console.ReadLine();
         }
     }
 }
