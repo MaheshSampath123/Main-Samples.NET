@@ -22,7 +22,7 @@ namespace Samples
             AddDelegate ad = new AddDelegate(p.AddNums);
             ad(100, 100);
             SayDelegate sd = new SayDelegate(Delegates.SayHello);
-            string str = sd(" sampath");
+            string str = sd("World");
             Console.WriteLine(str);
             Console.ReadLine();
         }
