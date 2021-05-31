@@ -10,9 +10,8 @@ namespace Samples
         static void Main(string[] args)
         {
             string pah = @"D:\SamplesonFiles\Directories\starting1";
-            string pah1 = @"D:\SamplesonFiles\another1";
             //Directory.CreateDirectory(path);
-            Console.WriteLine(Directory.GetCurrentDirectory()); 
+            // Console.WriteLine(Directory.GetCurrentDirectory()); 
             // Console.WriteLine(Directory.Exists(path); 
             // Directory.Delete(path);
             /*foreach(var i in Directory.GetDirectories(pah))
@@ -21,6 +20,7 @@ namespace Samples
              }*/
             // Console.WriteLine( Directory.GetCreationTime(pah));
             // Console.WriteLine(Directory.GetDirectoryRoot(pah));
+          
         }
     }
 }

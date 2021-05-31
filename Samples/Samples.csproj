@@ -3,7 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>Samples.DirectorySamples</StartupObject>
+    <StartupObject>Samples.TextWriterAndReader</StartupObject>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
 
 </Project>
