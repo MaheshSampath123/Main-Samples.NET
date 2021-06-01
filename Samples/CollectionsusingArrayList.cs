@@ -17,8 +17,8 @@ namespace Samples
             al.Add(50);
             // Console.WriteLine(al.Capacity);
             al.Insert(2, 25);        //Inserting element in Middle
-            al.Remove(40);           //Deleting element in the Middle
-            al.RemoveAt(3);          //Deleting element with index position
+            //al.Remove(40);           //Deleting element in the Middle
+           // al.RemoveAt(3);          //Deleting element with index position
            // al.RemoveRange(1, 3); //it will delete the elements from index point with count elements
             foreach (int i in al)
             {
@@ -29,11 +29,11 @@ namespace Samples
              {
                  Console.WriteLine(i);
              } */
-            int[] arr = new int[] { 10, 20, 30, 40 };
+          /*  int[] arr = new int[] { 10, 20, 30, 40 };//Array we can't Delete and can't add element
             foreach(var i in arr)
             {
                 Console.WriteLine(i);
-            }
+            } */
             
         }
     }
