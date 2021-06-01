@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using System.Diagnostics;
 
 namespace Samples
 {
@@ -9,6 +10,8 @@ namespace Samples
     {
         static void Main(string[] args)
         {
+            Stopwatch sw1 = new Stopwatch();
+            sw1.Start();
             StringBuilder sb = new StringBuilder();
             StringWriter sw = new StringWriter(sb);
              sw.Write(10);
@@ -21,7 +24,9 @@ namespace Samples
             sw.Flush();
             sw.Close();
             StringReader sr = new StringReader(sb.ToString());
-            Console.WriteLine(sr.ReadLine());
+            Console.WriteLine(sr.ReadLine(  ));
+            sw1.Stop();
+            Console.WriteLine("Time Taken:"+sw1.ElapsedMilliseconds);
 
 
 
