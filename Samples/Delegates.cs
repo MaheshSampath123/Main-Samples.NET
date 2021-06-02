@@ -21,7 +21,7 @@ namespace Samples
             Delegates p = new Delegates();
             AddDelegate ad = new AddDelegate(p.AddNums);
             ad(100, 100);
-            SayDelegate sd = new SayDelegate(Delegates.SayHello);
+            SayDelegate sd = new SayDelegate(Delegates.SayHello); //static so calling class name
             string str = sd("World");
             Console.WriteLine(str);
             Console.ReadLine();
