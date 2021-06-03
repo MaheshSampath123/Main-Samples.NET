@@ -8,6 +8,8 @@ namespace Samples
     {
         static void Main(string[] args)
         {
+            int a1 = 10;
+            Console.WriteLine(a1.Factorial());
             object a = 10;
             object b = "sampath";
            
@@ -21,6 +23,7 @@ namespace Samples
             Console.WriteLine(b);
             Console.WriteLine(c);
             Console.WriteLine(d);
+
 
 
 
