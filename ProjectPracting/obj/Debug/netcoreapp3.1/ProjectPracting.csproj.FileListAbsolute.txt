@@ -1,0 +1,14 @@
+D:\Training .NET\Samples\ProjectPracting\bin\Debug\netcoreapp3.1\ProjectPracting.exe
+D:\Training .NET\Samples\ProjectPracting\bin\Debug\netcoreapp3.1\Samples.deps.json
+D:\Training .NET\Samples\ProjectPracting\bin\Debug\netcoreapp3.1\Samples.runtimeconfig.json
+D:\Training .NET\Samples\ProjectPracting\bin\Debug\netcoreapp3.1\Samples.runtimeconfig.dev.json
+D:\Training .NET\Samples\ProjectPracting\bin\Debug\netcoreapp3.1\Samples.exe
+D:\Training .NET\Samples\ProjectPracting\bin\Debug\netcoreapp3.1\Samples.dll
+D:\Training .NET\Samples\ProjectPracting\bin\Debug\netcoreapp3.1\Samples.pdb
+D:\Training .NET\Samples\ProjectPracting\obj\Debug\netcoreapp3.1\ProjectPracting.csprojAssemblyReference.cache
+D:\Training .NET\Samples\ProjectPracting\obj\Debug\netcoreapp3.1\ProjectPracting.AssemblyInfoInputs.cache
+D:\Training .NET\Samples\ProjectPracting\obj\Debug\netcoreapp3.1\ProjectPracting.AssemblyInfo.cs
+D:\Training .NET\Samples\ProjectPracting\obj\Debug\netcoreapp3.1\ProjectPracting.csproj.CoreCompileInputs.cache
+D:\Training .NET\Samples\ProjectPracting\obj\Debug\netcoreapp3.1\ProjectPracting.csproj.CopyComplete
+D:\Training .NET\Samples\ProjectPracting\obj\Debug\netcoreapp3.1\ProjectPracting.dll
+D:\Training .NET\Samples\ProjectPracting\obj\Debug\netcoreapp3.1\ProjectPracting.pdb

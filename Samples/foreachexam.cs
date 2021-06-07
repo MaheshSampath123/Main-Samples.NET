@@ -14,6 +14,12 @@ namespace MainClass
                 Console.WriteLine(name);
             }
         }
+
+        private void sampathforeach(string v, object name, string[] names)
+        {
+            throw new NotImplementedException();
+        }
+
         static void Main(string[] args)
         {
             foreachexam n = new foreachexam();

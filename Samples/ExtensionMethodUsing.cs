@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Collections;
+using System.IO;
 
 namespace Samples
 {
@@ -8,6 +10,8 @@ namespace Samples
     {
         static void Main(string[] args)
         {
+           
+
             //Integer structure Extension
             Console.WriteLine("Enter Number To find Factorial:");
             int i = int.Parse(Console.ReadLine());
