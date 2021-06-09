@@ -8,6 +8,7 @@ namespace Samples
    
     class AssignmentForeach
     {
+        public string FirstName { get; set; }
         public static void sampathforeach<T>(T a) 
         {
             //Converting Generic type to Dynamic Type
@@ -33,6 +34,7 @@ namespace Samples
         static void Main(string[] args)
         {
             
+
             //List<dynamic> lst1 = new List<dynamic>() { 10, 2.3, "madhu", false };
             //lst1.SampathForeach();
             //Queue<dynamic> de = new Queue<dynamic>();

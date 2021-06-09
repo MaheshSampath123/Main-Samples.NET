@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>Samples.ExtensionsforAllForeach</StartupObject>
+    <StartupObject>Samples.practicingall</StartupObject>
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
 
