@@ -17,7 +17,7 @@ namespace Samples
             //IEnumerator is an interface that will iterate the data in a particular manner
            //GetEnumerator is a method of IEnumerabl. So, converting Dynamic DataType to IEnumerable
            //Returned in IEnumerator var n
-          // var n = ((IEnumerable)change).GetEnumerator(); //To use GetEnumerator
+          //var n = ((IEnumerable)change).GetEnumerator(); //To use GetEnumerator
 
             //do
             //{
