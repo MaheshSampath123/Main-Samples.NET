@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections;
+using System.Linq;
 
 namespace Samples
 {
@@ -10,11 +11,11 @@ namespace Samples
         {
             dynamic x = a;
             // Console.WriteLine(a.GetType().FullName);
-            IEnumerator n = ((IEnumerable)x).GetEnumerator();
-            while (n.MoveNext())
-            {
-                Console.WriteLine(n.Current.ToString());
-            }
+            //IEnumerator n = ((IEnumerable)x).GetEnumerator();
+            //while (n.MoveNext())
+            //{
+            //    Console.WriteLine(n.Current.ToString());
+            //}
 
             static void Main(string[] args)
             {
