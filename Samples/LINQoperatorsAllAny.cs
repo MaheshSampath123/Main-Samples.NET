@@ -14,6 +14,7 @@ namespace Samples
             // var Result = IntArray.All(x => x > 10);
             var Result = (from num in IntArray
                             select num).Any();
+
             Console.WriteLine("Is All Numbers are greater than 10 : " + Result);
                 Console.ReadKey();
             }

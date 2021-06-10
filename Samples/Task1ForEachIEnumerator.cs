@@ -36,7 +36,7 @@ namespace Samples
             return new OrganizationEnumerator(this);
         }
     }
-     class OrganizationEnumerator : IEnumerator
+    class OrganizationEnumerator : IEnumerator
     {
         Organization OrgColl;
         int CurrentIndex;
@@ -69,6 +69,7 @@ namespace Samples
 
     class Task1ForEachIEnumerator
     {
+        
         static void Main(string[] args)
         {
             Organization Employees = new Organization();
@@ -76,6 +77,7 @@ namespace Samples
             Employees.Add(new Employee1 { Id = 102, Name = "Mark", Job = "Analyst", Salary = 20000.00 });
             Employees.Add(new Employee1 { Id = 103, Name = "Steve", Job = "Developer", Salary = 15000.00 });
             Employees.Add(new Employee1 { Id = 104, Name = "Joy", Job = "SalesMan", Salary = 10000.00 });
+           
             foreach (Employee1 Emp in Employees)
                 Console.WriteLine(Emp.Id + " " + Emp.Name + " " + Emp.Job + " " + Emp.Salary);
             Console.ReadLine();
@@ -83,3 +85,4 @@ namespace Samples
         }
     }
 }
+ 
